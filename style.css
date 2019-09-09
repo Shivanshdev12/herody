@@ -1,0 +1,121 @@
+.nav-link{
+    padding:10px;
+    font-weight:600; 
+}
+.btn,.btn:hover{
+    color:white; 
+    border-radius:20px; 
+}
+.btn-warning{
+    background-color:#ffab00; 
+    width:200px;
+    box-shadow:0px 2px 0px 2px #ffab00; 
+}
+.btn-hr1{
+    background-color:#3a3aa4;
+    color:white;    
+}
+.btn-hr1:hover{
+    box-shadow:2px 2px 2px 2px #3a3aa4; 
+}
+.btn-hr2{
+    background-color:#406af8;
+    color:white; 
+}
+.btn-hr3{
+    color:white;
+    width:200px;
+    box-shadow:0px 3px 3px 0px #3a3aa4; 
+    background-color: #3a3aa4; 
+}
+.btn-hr4{
+    color:white;
+    width:200px;
+    background-color:#ff5630;
+    box-shadow:0px 3px 3px 0px #ff5630;  
+}
+.row-header{
+    margin:20px auto;
+    padding:70px 0px 70px 0px;
+    min-height:500px;
+}
+.row-header h1,.row-header h2,.row-header h3,h1{
+    font-weight:500;
+    color:#344563; 
+}
+.row-header p{
+    font-size:1.2em; 
+}
+.row-section{
+    margin:0px auto;
+    min-height:200px;
+    padding:30px 0px 30px 0px;
+}
+.box {
+    position: fixed;
+    top: 0;
+    transform: rotate(80deg); 
+    left: 0;
+  }
+  .wave {
+    position: absolute;
+    opacity: .4;
+    width:80%;
+    height: 300px;
+    border-radius: 43%;
+  }
+  .wave.-one {
+    background: #0af;
+  }
+  .back{
+      background-image:url('images/wave0.svg') 
+  }
+  .row-footer{
+      padding:70px 0px 70px 0px;
+      min-height:200px;
+      margin:0px auto;
+  }
+  @media (max-width: 767px) {
+    .column {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .column {
+        width: 50%;
+    }
+}
+@media (min-width: 1025px) {
+    .column {
+        width: 25%;
+    }
+}  
+.navbar{
+    background-color:white;
+}
+img.img1,img.img4{
+    position: absolute;
+    margin:90px;
+    box-shadow:5px 7px 7px 5px #c3c3c3; 
+    width:70px;
+    border-radius:50%;
+}
+img.img3{
+    position: absolute;
+    box-shadow:5px 7px 7px 5px #c3c3c3; 
+    width:70px;
+    border-radius:50%;
+}
+img.img2{
+    position: absolute;
+    margin:-60px; 
+    left:5;
+    box-shadow:5px 7px 7px 5px #c3c3c3; 
+    width:70px;
+    border-radius:50%;
+}
+img.img5{
+    box-shadow:5px 7px 7px 5px #c3c3c3; 
+    width:70px;
+    border-radius:50%;
+}
